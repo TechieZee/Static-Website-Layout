@@ -6,4 +6,4 @@ Will be making an ecomerce website by adding more features to it incuding cart, 
 ---
 ## License and copyright
 
-Map(c) Zeeshan Abbasi, University Departments, Rajasthan Technical University Kota
+Map (c) Zeeshan Abbasi, University Departments, Rajasthan Technical University Kota
