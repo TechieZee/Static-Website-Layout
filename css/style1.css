@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: slategray;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(216, 94, 185), rgba(34, 185, 196, 0.486));
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header:before {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .2;
+    z-index: -1;
+    background: linear-gradient(to right, #cd86e2 0%, #c463f170 0%, #ae4be7e1 100%);
+}
+
+.navbar:before {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to right, #72238a 0%, #640439 0%, #a200ffe1 100%);
+}
+
+.nav-item a {
+    color: #fff!important;
+    font-weight: bold;
+}
+
+
+/*************************MIssion Vision Section*******************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-div p {
+    color: rgb(73, 71, 71);
+    font-weight: 600;
+    font-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.about-div {
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    padding-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.about-div:before {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+/* Remove extra left and right margins, due to padding in columns */
+
+.row {
+    margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the counter cards */
+
+.card {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.61);
+    /* this adds the "card" effect */
+    width: fit-content;
+    padding: 50px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    background: #fff;
+    width: fit-content;
+    border: medium none;
+    border-radius: 3px;
+    padding: 40px;
+    min-height: 300px;
+    margin: 25px;
+}
+
+.card-body {
+    padding: 30px 0px!important;
+}
+
+
+/****************Footer*******************************/
+
+
+/*FOOTER*/
+
+footer {
+    background: #16222A;
+    background: linear-gradient(#a949c7 60%, #fff 0%);
+    color: white;
+    margin-top: 10px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.4s ease;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 10px;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 5px 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 1px auto 7px auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
