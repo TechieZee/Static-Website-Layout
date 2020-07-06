@@ -3,8 +3,6 @@
 A static website with HOme, About and Contact Us pages.
 Will be making an ecomerce website by adding more features to it incuding cart, search and other required features.
 
-![alt text](http://zeeshanabbasi.me/Static-Website-Task-1-/index.html)
-
 ---
 ## License and copyright
 
